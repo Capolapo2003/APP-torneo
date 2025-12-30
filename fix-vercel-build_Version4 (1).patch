@@ -1,0 +1,25 @@
+diff --git a/vercel.json b/vercel.json
+index 0000000..0000000
+--- a/vercel.json
++++ b/vercel.json
+@@ -1,7 +1,11 @@
+-{
+-  "builds": [
+-    { "src": "index.html", "use": "@vercel/static-build", "config": { "distDir": "dist" } }
+-  ],
+-  "routes": [
+-    { "src": "/(.*)", "dest": "/index.html" }
+-  ]
+-}
++{
++  "builds": [
++    {
++      "src": "package.json",
++      "use": "@vercel/static-build",
++      "config": { "distDir": "dist" }
++    }
++  ],
++  "routes": [
++    { "src": "/(.*)", "dest": "/index.html" }
++  ]
++}

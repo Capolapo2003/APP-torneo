@@ -1,0 +1,7 @@
+{
+  "name": "FIFA Tournament Master",
+  "description": "A mobile-first web application for managing FIFA tournaments with League and Champions formats, real-time results, and score confirmation systems.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
